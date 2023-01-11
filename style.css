@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: lightgreen;
+    background-image: url("LiftUp.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+#list{
+    width: 300px;
+    background-color: lightpink;
+}
+.groceryList{
+    display: flex;
+    justify-content: center;
+}

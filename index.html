@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="initialize();">
+    <h1>Shop Lift Up, Inc</h1>
+    <label>
+        Input the name of the item to add to your list: <input type="text" id="item">
+    </label>
+    <button onclick="addGrocery()">Add Item</button>
+    <br><br>
+    <label>
+        Input the number of the item to move or delete from the list: <input type="number" id="index" min="1"
+            oninput="validity.valid||(value='');">
+    </label>
+    <button onclick="moveUp()">↑</button>
+    <button onclick="moveDown()">↓</button>
+    <button onclick="deleteGrocery()">Delete Item</button>
+    <br><br><br><br><br>
+    <h2>Your Grocery List</h2>
+    <div class="groceryList">
+        <div id="list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
