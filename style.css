@@ -21,3 +21,10 @@ input::-webkit-inner-spin-button {
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width:1100px) {
+    body{
+        background-position: bottom;
+        background-attachment: scroll;
+    }
+    
+}
